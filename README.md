@@ -4,6 +4,8 @@
 
 - [Project Overview](#Project-Overview)
 - [Objective](#objective)
+- [Key Metrics & Scope](#Key-Metrics-&-Scope)
+  
 
 
 
@@ -16,3 +18,17 @@ It addresses the issue of scattered and inconsistent data through a systematic w
 # Objective
 
 To discover the top performing UK Youtubers to form marketing collaborations with throughout the year 2024.
+
+# KPIs & Scope
+
+This project focuses on analyzing the Top 100 YouTubers in the UK, using the following KPIs :
+
+- subscriber count
+- total views
+- total videos, and
+- engagement metrics
+
+
+
+
+
