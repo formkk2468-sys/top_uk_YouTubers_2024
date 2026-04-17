@@ -1,10 +1,11 @@
 # YouTube2024-Marketing-Analytics-Project
 
-# Table of contents
+# Table of Contents
 
 - [Project Overview](#Project-Overview)
 - [Objective](#objective)
 - [Key Metrics & Scope](#Key-Metrics-&-Scope)
+- [Steps of Project](#Steps-of-Project)
   
 
 
@@ -27,6 +28,44 @@ This project focuses on analyzing the Top 100 YouTubers in the UK, using the fol
 - total views
 - total videos, and
 - engagement metrics
+
+# Data Source 
+
+Key data used in the analysis to achieve the project objectives.
+
+- channel names
+- total subscribers
+- total views
+- total videos uploaded
+
+# Steps of Project
+
+- Design
+- Developement
+- Testing
+- Analysis
+
+# Design 
+
+## Dashboard Components Required 
+
+1. Who are the top 10 YouTubers with the most subscribers?
+2. Which 3 channels have uploaded the most videos?
+3. Which 3 channels have the most views?
+4. Which 3 channels have the highest average views per video?
+5. Which 3 channels have the highest views per subscriber ratio?
+6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+
+## Dashboard mockup
+
+## Tools
+
+| Tool | Purpose |
+| --- | --- |
+| Excel | Exploring the data |
+| SQL Server | Cleaning, testing, and analyzing the data |
+| Power BI | Visualizing the data via interactive dashboards |
+
 
 
 
