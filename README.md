@@ -80,9 +80,23 @@ Key data used in the analysis to achieve the project objectives.
 
 ## Data Cleaning
 
-Problem Identified: The NOMBRE column contains both the channel name and the handle (ID) concatenated together, separated by the "@" symbol. To ensure analytical accuracy, it is necessary to extract only the channel name.
+Problem Identified : The NOMBRE column contains both the channel name and the handle (ID) concatenated together, separated by the "@" symbol. To ensure analytical accuracy, it is necessary to extract only the channel name.
 
 ![Problem_Identified](assets/images/Problem_Identified.png)
+
+### Transform the data
+
+```sql
+
+SELECT
+    CAST(SUBSTRING(NOMBRE, 1, CHARINDEX('@', NOMBRE) - 1) AS VARCHAR(100)) AS channel_name,
+    total_subscribers,
+    total_videos,
+    total_views
+FROM 
+    top_uk_youtubers_2024
+
+```
 
 
 
