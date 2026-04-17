@@ -7,7 +7,10 @@
 - [Key Metrics & Scope](#Key-Metrics-&-Scope)
 - [Data Source](#Data-Source)
 - [Steps of Project](#Steps-of-Project)
-  
+- [Design](#Design)
+  - [Dashboard Components Required](Dashboard-Components-Required)
+  - [Dashboard mockup](#Dashboard-mockup)
+  - [Tools](#Tools)
 
 
 
