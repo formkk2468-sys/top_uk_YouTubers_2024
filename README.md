@@ -79,7 +79,9 @@ Key data used in the analysis to achieve the project objectives.
 7. Generate the findings based on the insights
 
 ## Data Cleaning
-### hsh
+
+Problem Identified: The first column contains both the channel name and the handle (ID) concatenated together, separated by the "@" symbol. To ensure analytical accuracy, it is necessary to extract only the channel name.
+
 
 
 
