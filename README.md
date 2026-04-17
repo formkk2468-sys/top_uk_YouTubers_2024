@@ -66,8 +66,20 @@ Key data used in the analysis to achieve the project objectives.
 | SQL Server | Cleaning, testing, and analyzing the data |
 | Power BI | Visualizing the data via interactive dashboards |
 
+# Developement
 
+## Project Workflow
 
+1. Get the data
+2. Explore the data in Excel
+3. Load the data into SQL Server
+4. Clean the data with SQL
+5. Test the data with SQL
+6. Visualize the data in Power BI
+7. Generate the findings based on the insights
+
+## Data Cleaning
+###hsh
 
 
 
