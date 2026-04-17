@@ -91,7 +91,7 @@ Problem Identified : The NOMBRE column contains both the channel name and the ha
 
 ![Problem_Identified](assets/images/Problem_Identified.png)
 
-### Transform the data
+### Transform the Data
 
 ```sql
 
@@ -105,7 +105,7 @@ FROM
 
 ```
 
-### Create the SQL view
+### Create the SQL View
 
 ```sql
 
@@ -128,8 +128,8 @@ FROM
 - Data type check
 - Duplicate count check
 
-## Row count check
-
+## Row Count Check 
+### SQL query
 ```sql
 
 -- Count the total number of records (or rows) are in the SQL view
@@ -138,5 +138,6 @@ SELECT
 	COUNT(*) AS no_of_rows
 FROM view_uk_youtubers_2024
 
-
 ```
+### Output
+![rowcount](assets/images/rowcount.png)
