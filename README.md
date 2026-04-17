@@ -11,7 +11,7 @@
   - [Dashboard Components Required](Dashboard-Components-Required)
   - [Dashboard mockup](#Dashboard-mockup)
   - [Tools](#Tools)
-- [Developement(#Developement)]
+- [Developement](#Developement)
   - [Project Workflow](#Project-Workflow)
   - [Data Cleaning](#Data-Cleaning)
 
