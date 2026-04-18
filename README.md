@@ -21,7 +21,8 @@
   - [Column Count Check](#Column-Count-Check)
   - [Data Type Check](#Data-Type-Check)
   - [Duplicate Count Check](#Duplicate-Count-Check)
-
+- [Visualization](#Visualization)
+  - [Dax Measures](#Dax-Measures)
 
 
 # Project Overview
@@ -198,3 +199,29 @@ HAVING COUNT(*) > 1
 ![duplicate](assets/images/duplicate.png)
 
 # Visualization
+
+![PBI_uk_YouTubers_Dashboard](assets/images/PBI_uk_YouTubers_Dashboard.png)
+
+## Dax Measures
+
+### 1.Total Subscribers (M)
+```sql
+
+Total Subscribers (M) = 
+VAR million = 1000000
+VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR totalSubscribers = DIVIDE(sumOfSubscribers,million)
+RETURN totalSubscribers
+
+```
+
+### 2.Total Views (B)
+```sql
+
+Total Views (B) = 
+VAR billion = 1000000000
+VAR sumOfView = sum(view_uk_youtubers_2024[total_views])
+VAR totalViews = DIVIDE(sumOfView,billion)
+RETURN totalViews
+
+```
