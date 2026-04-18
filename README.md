@@ -17,6 +17,10 @@
   - [Transform the Data](#Transform-the-Data)
   - [Create the SQL View](#Create-the-SQL-View)
 - [Data Testing](#Data-Testing)
+  - [Row Count Check](#Row-Count-Check)
+  - [Column Count Check](#Column-Count-Check)
+  - [Data Type Check](#Data-Type-Check)
+  - [Duplicate Count Check](#Duplicate-Count-Check)
 
 
 
