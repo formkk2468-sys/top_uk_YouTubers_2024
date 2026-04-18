@@ -144,3 +144,50 @@ FROM view_uk_youtubers_2024
 ```
 ### Output
 ![rowcount](assets/images/rowcount.png)
+
+## Column Count Check 
+### SQL query
+```sql
+
+-- Count the total number of columns (or fields) are in the SQL view
+
+SELECT 
+	COUNT(*) AS column_count
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'view_uk_youtubers_2024'
+
+```
+### Output
+![columncount](assets/images/columncount.png)
+
+## Data Type Check 
+### SQL query
+```sql
+
+-- Check the data types of each column from the view by checking the INFORMATION SCHEMA view
+
+SELECT 
+	COLUMN_NAME,
+	DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'view_uk_youtubers_2024'
+
+```
+### Output
+![datatype](assets/images/datatype.png)
+
+## Duplicate Count Check 
+### SQL query
+```sql
+
+-- Duplicate count check
+
+SELECT 
+	channel_name , COUNT(*) AS duplicate_count
+FROM view_uk_youtubers_2024
+GROUP BY channel_name
+HAVING COUNT(*) > 1
+
+```
+### Output
+![duplicate](assets/images/duplicate.png)
