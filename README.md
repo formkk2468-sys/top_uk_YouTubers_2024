@@ -57,6 +57,7 @@ Key data used in the analysis to achieve the project objectives.
 - Design
 - Developement
 - Testing
+- Visualization
 - Analysis
 
 # Design 
@@ -195,3 +196,5 @@ HAVING COUNT(*) > 1
 ```
 ### Output
 ![duplicate](assets/images/duplicate.png)
+
+# Visualization
