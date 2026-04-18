@@ -14,6 +14,9 @@
 - [Developement](#Developement)
   - [Project Workflow](#Project-Workflow)
   - [Data Cleaning](#Data-Cleaning)
+  - [Transform the Data](#Transform-the-Data)
+  - [Create the SQL View](#Create-the-SQL-View)
+- [Data Testing](#Data-Testing)
 
 
 
@@ -91,7 +94,7 @@ Problem Identified : The NOMBRE column contains both the channel name and the ha
 
 ![Problem_Identified](assets/images/Problem_Identified.png)
 
-### Transform the Data
+## Transform the Data
 
 ```sql
 
@@ -105,7 +108,7 @@ FROM
 
 ```
 
-### Create the SQL View
+## Create the SQL View
 
 ```sql
 
