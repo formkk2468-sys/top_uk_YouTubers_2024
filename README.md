@@ -204,7 +204,7 @@ HAVING COUNT(*) > 1
 
 ## Dax Measures
 
-### 1.Total Subscribers (M)
+### 1. Total Subscribers (M)
 ```sql
 
 Total Subscribers (M) = 
@@ -215,7 +215,7 @@ RETURN totalSubscribers
 
 ```
 
-### 2.Total Views (B)
+### 2. Total Views (B)
 ```sql
 
 Total Views (B) = 
@@ -223,5 +223,48 @@ VAR billion = 1000000000
 VAR sumOfView = sum(view_uk_youtubers_2024[total_views])
 VAR totalViews = DIVIDE(sumOfView,billion)
 RETURN totalViews
+
+```
+
+### 3. Total Videos
+```sql
+
+Total Videos = 
+VAR totalVideos = sum(view_uk_youtubers_2024[total_videos])
+RETURN totalVideos
+
+```
+
+### 4. Average Views Per Video (M)
+```sql
+
+Avg Views per Video (M) = 
+VAR sumOfTotalViews = sum(view_uk_youtubers_2024[total_views])
+VAR sumOfTotalVideo = sum(view_uk_youtubers_2024[total_videos])
+VAR AvgViewsperVideo = DIVIDE(sumOfTotalViews,sumOfTotalVideo,BLANK())
+VAR finalAvgViewsPerVideo = DIVIDE(AvgViewsperVideo,1000000,BLANK())
+RETURN finalAvgViewsPerVideo
+
+```
+
+### 5. Subscriber Engagement Rate
+```sql
+
+Subscriber Engagement Rate = 
+VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR sumOfTotalVideo = SUM(view_uk_youtubers_2024[total_videos])
+VAR subscriberEngagementRate = DIVIDE(sumOfTotalSubscribers,sumOfTotalVideo,BLANK())
+RETURN subscriberEngagementRate
+
+```
+
+### 6.Views Per Subscriber
+```sql
+
+Views per Subscriber = 
+VAR sumOfTotalViews = sum(view_uk_youtubers_2024[total_views])
+VAR sumOfTotalSubscriber = sum(view_uk_youtubers_2024[total_subscribers])
+VAR viewsPerSubscriber = DIVIDE(sumOfTotalViews,sumOfTotalSubscriber,BLANK())
+RETURN viewsPerSubscriber
 
 ```
