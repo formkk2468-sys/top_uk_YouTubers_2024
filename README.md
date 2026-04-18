@@ -258,7 +258,7 @@ RETURN subscriberEngagementRate
 
 ```
 
-### 6.Views Per Subscriber
+### 6. Views Per Subscriber
 ```sql
 
 Views per Subscriber = 
