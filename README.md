@@ -351,7 +351,23 @@ RETURN viewsPerSubscriber
 | 2    | Bruno Mars    | 362,500.00                |
 | 3    | Billie Eilish | 306,878.31                |
 
+## Notes
 
+In this analysis, I'll be focusing on the key metrics that drive our expected ROI (Return on Investment). 
+
+These include :
+
+- Total Subscribers
+
+- Total Videos
+
+- Total Views
+
+- Average Views per Video
+
+- Average Subscribers per Video
+
+- Average Views per Subscriber
 
 
 
