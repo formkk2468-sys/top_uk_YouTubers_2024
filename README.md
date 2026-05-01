@@ -211,7 +211,7 @@ HAVING COUNT(*) > 1
 
 # Visualization ---------------------------------------------
 
-![PBI_uk_YouTubers_Dashboard](assets/images/PBI_uk_YouTubers_Dashboard.png)
+![PBI_uk_YouTubers_Dashboard](assets/images/PBI_Top_YB_Worldwide_2026.png)
 
 ## Dax Measures
 
