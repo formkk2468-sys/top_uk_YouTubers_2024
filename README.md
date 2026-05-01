@@ -209,7 +209,7 @@ HAVING COUNT(*) > 1
 ### Output
 ![duplicate](assets/images/duplicate.png)
 
-# Visualization ---------------------------------------------
+# Visualization 
 
 ![PBI_uk_YouTubers_Dashboard](assets/images/PBI_Top_YB_Worldwide_2026.png)
 
@@ -279,3 +279,83 @@ VAR viewsPerSubscriber = DIVIDE(sumOfTotalViews,sumOfTotalSubscriber,BLANK())
 RETURN viewsPerSubscriber
 
 ```
+
+# Analysis
+
+ For this analysis, I'll be focusing on the questions below to grab the key insights we need for our marketing.
+
+1. Who are the top 10 YouTubers with the most subscribers?
+2. Which 3 channels have uploaded the most videos?
+3. Which 3 channels have the most views?
+4. Which 3 channels have the highest average views per video?
+5. Which 3 channels have the highest views per subscriber ratio?
+6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+
+## 1. Who are the top 10 YouTubers with the most subscribers?
+
+| Rank | Channel Name                | Total Subscribers (M) |
+|------|-----------------------------|-----------------------|
+| 1    | MrBeast                     | 479.00                |
+| 2    | T-Series                    | 311.00                |
+| 3    | Cocomelon - Nursery Rhymes  | 201.00                |
+| 4    | SET India                   | 189.00                |
+| 5    | Vlad and Niki               | 149.00                |
+| 6    | ✿ Kids Diana Show           | 138.00                |
+| 7    | Like Nastya                 | 132.00                |
+| 8    | Zee Music Company           | 122.00                |
+| 9    | WWE                         | 113.00                |
+| 10   | PewDiePie                   | 110.00                |
+
+## 2. Which 3 channels have uploaded the most videos?
+
+| Rank | Channel Name | Total Videos |
+|------|--------------|--------------|
+| 1    | VEGETTA777   | 8,802        |
+| 2    | Ishtar Music | 6,491        |
+| 3    | Felipe Neto  | 6,274        |
+
+## 3. Which 3 channels have the most views?
+
+
+| Rank | Channel Name      | Total Views (B) |
+|------|-------------------|-----------------|
+| 1    | ✿ Kids Diana Show | 123.90          |
+| 2    | Vlad and Niki     | 120.59          |
+| 3    | Like Nastya       | 120.33          |
+
+
+## 4. Which 3 channels have the highest average views per video?
+
+| Rank | Channel Name | Avg Views per Video (M) |
+|------|--------------|-------------------------|
+| 1    | Bad Bunny    | 247.68                  |
+| 2    | Bruno Mars   | 211.42                  |
+| 3    | Katy Perry   | 139.40                  |
+
+
+## 5. Which 3 channels have the highest average views per subscriber?
+
+| Rank | Channel Name    | Avg Views per Subscriber |
+|------|-----------------|--------------------------|
+| 1    | Ryan's World    | 1,571.42                 |
+| 2    | Toys and Colors | 1,430.95                 |
+| 3    | Alfredo Larin   | 1,040.89                 |
+
+
+
+## 6. Which 3 channels have the highest average subscribers per video ?
+
+| Rank | Channel Name  | Avg Subscribers per Video |
+|------|---------------|---------------------------|
+| 1    | MrBeast       | 495,346.43                |
+| 2    | Bruno Mars    | 362,500.00                |
+| 3    | Billie Eilish | 306,878.31                |
+
+
+
+
+
+
+
+
+
