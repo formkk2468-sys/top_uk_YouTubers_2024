@@ -406,6 +406,8 @@ Campaign idea = Product Placement
 
 ### 2. Total Videos Analysis (Top 3 by videos)
 
+#### Calculation breakdowns
+
 Campaign idea = Sponsored video series (11 vids) **$5000/video**
 
 1. VEGETTA777
@@ -433,6 +435,8 @@ Campaign idea = Sponsored video series (11 vids) **$5000/video**
 - Net profit = $310,000 - $55,000 = $255,000
 
 ### 3. Total Views Analysis (Top 3 by views)
+
+#### Calculation breakdowns
 
 Campaign idea = Product Placement
 
@@ -462,6 +466,8 @@ Campaign idea = Product Placement
 
 ### 4. Avg views per video Analysis (Top 3 by avg views per video)
 
+#### Calculation breakdowns
+
 Campaign idea = Sponsored video series (11 vids) **$5000/video**
 
 1. Bad Bunny
@@ -490,6 +496,8 @@ Campaign idea = Sponsored video series (11 vids) **$5000/video**
 
 ### 5. Avg subscribers per video Analysis (Top 3 by avg subs per vid)
 
+#### Calculation breakdowns
+
 Campaign idea = Influencer Marketing
 
 1. MrBeast
@@ -517,6 +525,8 @@ Campaign idea = Influencer Marketing
 - Net profit = $11,835,000 - $130,000 = $11,705,000
 
 ### 6. Avg views per subscriber Analysis (Top 3 by avg views per sub)
+
+#### Calculation breakdowns
 
 Campaign idea = Influencer Marketing
 
