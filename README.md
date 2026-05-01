@@ -407,7 +407,7 @@ Campaign idea = Product Placement
 Best option : MrBeast
 
 #### SQL query
-'''sql
+```sql
 -- 1. Total Subscribers Analysis (Top 3 by subscriber)
 
 DECLARE @conversionRate FLOAT = 0.02 ;
@@ -436,7 +436,7 @@ WHERE
 	channel_name IN ('MrBeast','Vlad and Niki','✿ Kids Diana Show')
 ORDER BY 
 	Net_profit DESC
-'''
+```
 ### 2. Total Videos Analysis (Top 3 by videos)
 
 #### Calculation breakdowns
