@@ -96,9 +96,10 @@ Key data used in the analysis to achieve the project objectives.
 
 ## Data Cleaning
 
-Problem Identified : The NAME column contains both the channel name and the handle (ID) concatenated together, separated by the "@" symbol. To ensure analytical accuracy, it is necessary to extract only the channel name.
+- The NAME column contains both the channel name and the handle (ID) concatenated together, separated by the "@" symbol. To ensure analytical accuracy, it is necessary to extract only the channel name.
+- To reduce data redundancy in the Channel Type column, the categories have been regrouped into three primary segments: Entertainment, Music, and Others. This re-categorization ensures the data is more concise and provides a clearer overall perspective.
 
-![Problem_Identified](assets/images/problem_@.png)
+![Problem_Identified](assets/images/problem.png)
 
 ## Transform the Data
 
