@@ -376,7 +376,7 @@ These include :
 
 ## Validation 
 
-### 1. Total Subscribers Analysis (Top 3 by subscriber)
+### 1. Total Subscribers Analysis (Top 3 by subscribers)
 
 #### Calculation breakdowns
 
