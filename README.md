@@ -402,7 +402,9 @@ Campaign idea = Product Placement
 - Potential Product Sales per video = 77.00M x 2% = 1,540,000 units
 - Potential revenue per video = 1,540,000 x $5 = $7,700,000
 - Campaign cost (one-time fee) = $50,000
-- Net profit = $7,700,000 - $50,000 = $7,650,000
+- **Net profit = $7,700,000 - $50,000 = $7,650,000**
+
+Best option : MrBeast
 
 ### 2. Total Videos Analysis (Top 3 by videos)
 
@@ -416,7 +418,7 @@ Campaign idea = Sponsored video series (11 vids) **$5000/video**
 - Potential Product Sales per video = 1.86M x 2% = 37,200 units
 - Potential revenue per video = 37,200 x $5 = $186,000
 - Campaign cost = $55,000
-- Net profit = $186,000 - $55,000 = $131,000
+- **Net profit = $186,000 - $55,000 = $131,000**
 
 2. Ishtar Music
 - Average views per video = 4.38 million
@@ -424,7 +426,7 @@ Campaign idea = Sponsored video series (11 vids) **$5000/video**
 - Potential Product Sales per video = 4.38M x 2% = 87,600 units
 - Potential revenue per video = 87,600 x $5 = $438,000
 - Campaign cost = $55,000
-- Net profit = $438,000 - $55,000 = $383,000
+- **Net profit = $438,000 - $55,000 = $383,000**
 
 3. Felipe Neto
 - Average views per video = 3.10 million
@@ -432,7 +434,9 @@ Campaign idea = Sponsored video series (11 vids) **$5000/video**
 - Potential Product Sales per video = 3.10M x 2% = 62,000 units
 - Potential revenue per video = 62,000 x $5 = $310,000
 - Campaign cost = $55,000
-- Net profit = $310,000 - $55,000 = $255,000
+- **Net profit = $310,000 - $55,000 = $255,000**
+
+Best option : Ishtar Music
 
 ### 3. Total Views Analysis (Top 3 by views)
 
@@ -446,7 +450,7 @@ Campaign idea = Product Placement
 - Potential Product Sales per video = 77.00M x 2% = 1,540,000 units
 - Potential revenue per video = 1,540,000 x $5 = $7,700,000
 - Campaign cost (one-time fee) = $50,000
-- Net profit = $7,700,000 - $50,000 = $7,650,000
+- **Net profit = $7,700,000 - $50,000 = $7,650,000**
 
 2. Vlad and Niki
 - Average views per video = 119.04 million
@@ -454,7 +458,7 @@ Campaign idea = Product Placement
 - Potential Product Sales per video = 119.04M x 2% = 2,380,800 units
 - Potential revenue per video = 2,380,800 x $5 = $11,904,000
 - Campaign cost (one-time fee) = $50,000
-- Net profit = $11,904,000 - $50,000 = $11,854,000
+- **Net profit = $11,904,000 - $50,000 = $11,854,000**
 
 3. Like Nastya
 - Average views per video = 112.99 million
@@ -462,7 +466,9 @@ Campaign idea = Product Placement
 - Potential Product Sales per video = 112.99M x 2% = 2,259,800 units
 - Potential revenue per video = 2,259,800 x $5 = $11,299,000
 - Campaign cost (one-time fee) = $50,000
-- Net profit = $11,299,000 - $50,000 = $11,249,000
+- **Net profit = $11,299,000 - $50,000 = $11,249,000**
+
+Best option : Vlad and Niki
 
 ### 4. Avg views per video Analysis (Top 3 by avg views per video)
 
@@ -476,7 +482,7 @@ Campaign idea = Sponsored video series (11 vids) **$5000/video**
 - Potential Product Sales per video = 247.68M x 2% = 4,953,600 units
 - Potential revenue per video = 4,953,600 x $5 = $24,768,000
 - Campaign cost = $55,000
-- Net profit = $24,768,000 - $55,000 = $24,713,000
+- **Net profit = $24,768,000 - $55,000 = $24,713,000**
 
 2. Bruno Mars
 - Average views per video = 211.42 million
@@ -484,7 +490,7 @@ Campaign idea = Sponsored video series (11 vids) **$5000/video**
 - Potential Product Sales per video = 211.42M x 2% = 4,228,400 units
 - Potential revenue per video = 4,228,400 x $5 = $21,142,000
 - Campaign cost = $55,000
-- Net profit = $21,142,000 - $55,000 = $21,087,000
+- **Net profit = $21,142,000 - $55,000 = $21,087,000**
 
 3. Katy Perry
 - Average views per video = 139.40 million
@@ -492,7 +498,9 @@ Campaign idea = Sponsored video series (11 vids) **$5000/video**
 - Potential Product Sales per video = 139.40M x 2% = 2,788,000 units
 - Potential revenue per video = 2,788,000 x $5 = $13,940,000
 - Campaign cost = $55,000
-- Net profit = $13,940,000 - $55,000 = $13,885,000
+- **Net profit = $13,940,000 - $55,000 = $13,885,000**
+
+Best option : Bad Bunny
 
 ### 5. Avg subscribers per video Analysis (Top 3 by avg subs per vid)
 
@@ -506,7 +514,7 @@ Campaign idea = Influencer Marketing
 - Potential Product Sales per video = 122.91M x 2% = 2,458,200 units
 - Potential revenue per video = 2,458,200 x $5 = $12,291,000
 - Campaign cost (one-time fee) = $130,000
-- Net profit = $12,291,000 - $130,000 = $12,161,000
+- **Net profit = $12,291,000 - $130,000 = $12,161,000**
 
 2. Bruno Mars
 - Average views per video = 211.42 million
@@ -514,7 +522,7 @@ Campaign idea = Influencer Marketing
 - Potential Product Sales per video = 211.42M x 2% = 4,228,400 units
 - Potential revenue per video = 4,228,400 x $5 = $21,142,000
 - Campaign cost (one-time fee) = $130,000
-- Net profit = $21,142,000 - $130,000 = $21,012,000
+- **Net profit = $21,142,000 - $130,000 = $21,012,000**
 
 3. Billie Eilish
 - Average views per video = 118.35 million
@@ -522,7 +530,9 @@ Campaign idea = Influencer Marketing
 - Potential Product Sales per video = 118.35M x 2% = 2,367,000 units
 - Potential revenue per video = 2,367,000 x $5 = $11,835,000
 - Campaign cost (one-time fee) = $130,000
-- Net profit = $11,835,000 - $130,000 = $11,705,000
+- **Net profit = $11,835,000 - $130,000 = $11,705,000**
+
+Best option : Bruno Mars
 
 ### 6. Avg views per subscriber Analysis (Top 3 by avg views per sub)
 
@@ -536,7 +546,7 @@ Campaign idea = Influencer Marketing
 - Potential Product Sales per video = 17.20M x 2% = 344,000 units
 - Potential revenue per video = 344,000 x $5 = $1,720,000
 - Campaign cost (one-time fee) = $130,000
-- Net profit = $1,720,000 - $130,000 = $1,590,000
+- **Net profit = $1,720,000 - $130,000 = $1,590,000**
 
 2. Toys and Colors
 - Average views per video = 65.04 million
@@ -544,7 +554,7 @@ Campaign idea = Influencer Marketing
 - Potential Product Sales per video = 65.04M x 2% = 1,300,800 units
 - Potential revenue per video = 1,300,800 x $5 = $6,504,000
 - Campaign cost (one-time fee) = $130,000
-- Net profit = $6,504,000 - $130,000 = $6,374,000
+- **Net profit = $6,504,000 - $130,000 = $6,374,000**
 
 3. Alfredo Larin
 - Average views per video = 27.67 million
@@ -552,7 +562,9 @@ Campaign idea = Influencer Marketing
 - Potential Product Sales per video = 27.67M x 2% = 553,400 units
 - Potential revenue per video = 553,400 x $5 = $2,767,000
 - Campaign cost (one-time fee) = $130,000
-- Net profit = $2,767,000 - $130,000 = $2,637,000
+- **Net profit = $2,767,000 - $130,000 = $2,637,000**
+
+Best option : Toys and Colors
 
 
 
