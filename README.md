@@ -220,7 +220,7 @@ HAVING COUNT(*) > 1
 
 Total Subscribers (M) = 
 VAR million = 1000000
-VAR sumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
+VAR sumOfSubscribers = SUM(view_AllCountries_youtubers_2026[total_subscribers])
 VAR totalSubscribers = DIVIDE(sumOfSubscribers,million)
 RETURN totalSubscribers
 
@@ -231,7 +231,7 @@ RETURN totalSubscribers
 
 Total Views (B) = 
 VAR billion = 1000000000
-VAR sumOfView = sum(view_uk_youtubers_2024[total_views])
+VAR sumOfView = sum(view_AllCountries_youtubers_2026[total_views])
 VAR totalViews = DIVIDE(sumOfView,billion)
 RETURN totalViews
 
@@ -241,7 +241,7 @@ RETURN totalViews
 ```sql
 
 Total Videos = 
-VAR totalVideos = sum(view_uk_youtubers_2024[total_videos])
+VAR totalVideos = sum(view_AllCountries_youtubers_2026[total_videos])
 RETURN totalVideos
 
 ```
@@ -250,31 +250,31 @@ RETURN totalVideos
 ```sql
 
 Avg Views per Video (M) = 
-VAR sumOfTotalViews = sum(view_uk_youtubers_2024[total_views])
-VAR sumOfTotalVideo = sum(view_uk_youtubers_2024[total_videos])
+VAR sumOfTotalViews = sum(view_AllCountries_youtubers_2026[total_views])
+VAR sumOfTotalVideo = sum(view_AllCountries_youtubers_2026[total_videos])
 VAR AvgViewsperVideo = DIVIDE(sumOfTotalViews,sumOfTotalVideo,BLANK())
 VAR finalAvgViewsPerVideo = DIVIDE(AvgViewsperVideo,1000000,BLANK())
 RETURN finalAvgViewsPerVideo
 
 ```
 
-### 5. Subscriber Engagement Rate
+### 5. Average Subscribers Per Video
 ```sql
 
-Subscriber Engagement Rate = 
-VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
-VAR sumOfTotalVideo = SUM(view_uk_youtubers_2024[total_videos])
-VAR subscriberEngagementRate = DIVIDE(sumOfTotalSubscribers,sumOfTotalVideo,BLANK())
-RETURN subscriberEngagementRate
+Avg Subscribers per Video = 
+VAR sumOfTotalSubscribers = SUM(view_AllCountries_youtubers_2026[total_subscribers])
+VAR sumOfTotalVideo = SUM(view_AllCountries_youtubers_2026[total_videos])
+VAR SubscribersperVideo = DIVIDE(sumOfTotalSubscribers,sumOfTotalVideo,BLANK())
+RETURN SubscribersperVideo
 
 ```
 
-### 6. Views Per Subscriber
+### 6. Average Views Per Subscriber
 ```sql
 
-Views per Subscriber = 
-VAR sumOfTotalViews = sum(view_uk_youtubers_2024[total_views])
-VAR sumOfTotalSubscriber = sum(view_uk_youtubers_2024[total_subscribers])
+Avg Views per Subscriber = 
+VAR sumOfTotalViews = sum(view_AllCountries_youtubers_2026[total_views])
+VAR sumOfTotalSubscriber = sum(view_AllCountries_youtubers_2026[total_subscribers])
 VAR viewsPerSubscriber = DIVIDE(sumOfTotalViews,sumOfTotalSubscriber,BLANK())
 RETURN viewsPerSubscriber
 
