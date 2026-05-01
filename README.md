@@ -520,7 +520,7 @@ Campaign idea = Influencer Marketing
 
 Campaign idea = Influencer Marketing
 
-1.Ryan's World
+1. Ryan's World
 - Average views per video = 17.20 million
 - Product cost = $5
 - Potential Product Sales per video = 17.20M x 2% = 344,000 units
