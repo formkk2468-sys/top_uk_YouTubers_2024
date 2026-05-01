@@ -24,6 +24,8 @@
 - [Visualization](#Visualization)
   - [Dax Measures](#Dax-Measures)
 - [Analysis](#Analysis)
+  - [Findinga](#Findinga)
+  - [Validation](#Validation)
 
 
 # Project Overview
