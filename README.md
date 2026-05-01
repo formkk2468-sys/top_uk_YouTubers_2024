@@ -97,7 +97,7 @@ Key data used in the analysis to achieve the project objectives.
 ## Data Cleaning
 
 - The NAME column contains both the channel name and the handle (ID) concatenated together, separated by the "@" symbol. To ensure analytical accuracy, it is necessary to extract only the channel name.
-- To reduce data redundancy in the Channel Type column, the categories have been regrouped into three primary segments: Entertainment, Music, and Others. This re-categorization ensures the data is more concise and provides a clearer overall perspective.
+- To keep things simple, I've grouped the Channel Type column into just three categories: Entertainment, Music, and Others. This makes the data much easier to read and gives a better quick look at the big picture.
 
 ![Problem_Identified](assets/images/problem.png)
 
@@ -106,12 +106,17 @@ Key data used in the analysis to achieve the project objectives.
 ```sql
 
 SELECT
-    CAST(SUBSTRING(NOMBRE, 1, CHARINDEX('@', NOMBRE) - 1) AS VARCHAR(100)) AS channel_name,
+    CAST(SUBSTRING(NAME, 1, CHARINDEX('@', NAME) - 1) AS VARCHAR(100)) AS channel_name,
+    CASE 
+        WHEN Channel_Type LIKE '%Entertainment%' THEN 'Entertainment'
+        WHEN Channel_Type LIKE '%Music%' THEN 'Music'    
+        ELSE 'Others'
+    END AS channel_type,
     total_subscribers,
     total_videos,
     total_views
 FROM 
-    top_uk_youtubers_2024
+    top_AllCountries_youtubers_2026
 
 ```
 
@@ -119,15 +124,20 @@ FROM
 
 ```sql
 
-CREATE VIEW view_uk_youtubers_2024 AS
-
+CREATE VIEW view_AllCountries_youtubers_2026 AS
+ 
 SELECT
-    CAST(SUBSTRING(NOMBRE, 1, CHARINDEX('@', NOMBRE) - 1) AS VARCHAR(100)) AS channel_name,
+    CAST(SUBSTRING(NAME, 1, CHARINDEX('@', NAME) - 1) AS VARCHAR(100)) AS channel_name,
+    CASE 
+        WHEN Channel_Type LIKE '%Entertainment%' THEN 'Entertainment'
+        WHEN Channel_Type LIKE '%Music%' THEN 'Music'    
+        ELSE 'Others'
+    END AS channel_type,
     total_subscribers,
     total_videos,
     total_views
 FROM 
-    top_uk_youtubers_2024
+    top_AllCountries_youtubers_2026
 
 ```
 
@@ -146,7 +156,7 @@ FROM
 
 SELECT 
 	COUNT(*) AS no_of_rows
-FROM view_uk_youtubers_2024
+FROM view_AllCountries_youtubers_2026
 
 ```
 ### Output
@@ -161,7 +171,7 @@ FROM view_uk_youtubers_2024
 SELECT 
 	COUNT(*) AS column_count
 FROM INFORMATION_SCHEMA.COLUMNS
-WHERE TABLE_NAME = 'view_uk_youtubers_2024'
+WHERE TABLE_NAME = 'view_AllCountries_youtubers_2026'
 
 ```
 ### Output
@@ -177,7 +187,7 @@ SELECT
 	COLUMN_NAME,
 	DATA_TYPE
 FROM INFORMATION_SCHEMA.COLUMNS
-WHERE TABLE_NAME = 'view_uk_youtubers_2024'
+WHERE TABLE_NAME = 'view_AllCountries_youtubers_2026'
 
 ```
 ### Output
@@ -191,7 +201,7 @@ WHERE TABLE_NAME = 'view_uk_youtubers_2024'
 
 SELECT 
 	channel_name , COUNT(*) AS duplicate_count
-FROM view_uk_youtubers_2024
+FROM view_AllCountries_youtubers_2026
 GROUP BY channel_name
 HAVING COUNT(*) > 1
 
@@ -199,7 +209,7 @@ HAVING COUNT(*) > 1
 ### Output
 ![duplicate](assets/images/duplicate.png)
 
-# Visualization
+# Visualization ---------------------------------------------
 
 ![PBI_uk_YouTubers_Dashboard](assets/images/PBI_uk_YouTubers_Dashboard.png)
 
