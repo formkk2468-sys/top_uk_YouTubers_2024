@@ -23,6 +23,7 @@
   - [Duplicate Count Check](#Duplicate-Count-Check)
 - [Visualization](#Visualization)
   - [Dax Measures](#Dax-Measures)
+- [Analysis](#Analysis)
 
 
 # Project Overview
@@ -343,7 +344,7 @@ RETURN viewsPerSubscriber
 
 
 
-## 6. Which 3 channels have the highest average subscribers per video ?
+## 6. Which 3 channels have the highest average subscribers per video?
 
 | Rank | Channel Name  | Avg Subscribers per Video |
 |------|---------------|---------------------------|
@@ -368,6 +369,8 @@ These include :
 - Average Subscribers per Video
 
 - Average Views per Subscriber
+
+
 
 
 
