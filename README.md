@@ -469,6 +469,38 @@ Campaign idea = Sponsored video series (11 vids) **$5000/video**
 
 Best option : Ishtar Music
 
+#### SQL query
+```sql
+-- 2. Total Videos Analysis (Top 3 by videos)
+
+DECLARE @conversionRate FLOAT = 0.02 ;
+DECLARE @productCost FLOAT = 5.0 ;
+DECLARE @campaignCost FLOAT = 55000.0 ;
+
+WITH ChannelData AS
+(
+SELECT
+	channel_name,
+	total_views,
+	total_videos,
+	ROUND(CAST(total_views AS FLOAT)/total_videos ,-4) AS rounded_avg_views_per_video
+FROM 
+	view_AllCountries_youtubers_2026	
+)
+SELECT 
+	channel_name,
+	rounded_avg_views_per_video,
+	rounded_avg_views_per_video * @conversionRate AS Potential_Product_Sales_Per_Video,
+	(rounded_avg_views_per_video * @conversionRate) * @productCost AS Potential_revenue_per_video,
+	((rounded_avg_views_per_video * @conversionRate) * @productCost) - @campaignCost AS Net_profit
+FROM 
+	ChannelData
+WHERE 
+	channel_name IN ('VEGETTA777','Ishtar Music','Felipe Neto')
+ORDER BY 
+	Net_profit DESC
+```
+
 ### 3. Total Views Analysis (Top 3 by views)
 
 #### Calculation breakdowns
@@ -500,6 +532,38 @@ Campaign idea = Product Placement
 - **Net profit = $11,299,000 - $50,000 = $11,249,000**
 
 Best option : Vlad and Niki
+
+#### SQL query
+```sql
+-- 3. Total Views Analysis (Top 3 by views)
+
+DECLARE @conversionRate FLOAT = 0.02 ;
+DECLARE @productCost FLOAT = 5.0 ;
+DECLARE @campaignCost FLOAT = 50000.0 ;
+
+WITH ChannelData AS
+(
+SELECT
+	channel_name,
+	total_views,
+	total_videos,
+	ROUND(CAST(total_views AS FLOAT)/total_videos ,-4) AS rounded_avg_views_per_video
+FROM 
+	view_AllCountries_youtubers_2026	
+)
+SELECT 
+	channel_name,
+	rounded_avg_views_per_video,
+	rounded_avg_views_per_video * @conversionRate AS Potential_Product_Sales_Per_Video,
+	(rounded_avg_views_per_video * @conversionRate) * @productCost AS Potential_revenue_per_video,
+	((rounded_avg_views_per_video * @conversionRate) * @productCost) - @campaignCost AS Net_profit
+FROM 
+	ChannelData
+WHERE 
+	channel_name IN ('✿ Kids Diana Show','Vlad and Niki','Like Nastya')
+ORDER BY 
+	Net_profit DESC
+```
 
 ### 4. Avg views per video Analysis (Top 3 by avg views per video)
 
@@ -533,6 +597,38 @@ Campaign idea = Sponsored video series (11 vids) **$5000/video**
 
 Best option : Bad Bunny
 
+#### SQL query
+```sql
+-- 4. Avg views per video Analysis (Top 3 by avg views per video)
+
+DECLARE @conversionRate FLOAT = 0.02 ;
+DECLARE @productCost FLOAT = 5.0 ;
+DECLARE @campaignCost FLOAT = 55000.0 ;
+
+WITH ChannelData AS 
+(
+SELECT 
+	channel_name,
+	total_views,
+	total_videos,
+	ROUND(CAST(total_views AS FLOAT) / total_videos, -4) AS rounded_avg_views_per_video
+FROM 
+	view_AllCountries_youtubers_2026
+)
+SELECT 
+	channel_name,
+	rounded_avg_views_per_video,
+	(rounded_avg_views_per_video * @conversionRate) AS Potential_Product_Sales_Per_Video,
+	(rounded_avg_views_per_video * @conversionRate) * @productCost AS Potential_revenue_per_video,
+	((rounded_avg_views_per_video * @conversionRate) * @productCost) - @campaignCost AS Net_profit
+FROM 
+	ChannelData
+WHERE 
+	channel_name IN ('Bad Bunny','Bruno Mars','Katy Perry')
+ORDER BY 
+	Net_profit DESC
+```
+
 ### 5. Avg subscribers per video Analysis (Top 3 by avg subs per vid)
 
 #### Calculation breakdowns
@@ -565,6 +661,38 @@ Campaign idea = Influencer Marketing
 
 Best option : Bruno Mars
 
+#### SQL query
+```sql
+-- 5. Avg subscribers per video Analysis (Top 3 by avg subs per vid)
+
+DECLARE @conversionRate FLOAT = 0.02 ;
+DECLARE @productCost FLOAT = 5.0 ;
+DECLARE @campaignCost FLOAT = 130000.0 ;
+
+WITH ChannelData AS
+(
+SELECT
+	channel_name,
+	total_views,
+	total_videos,
+	ROUND(CAST(total_views AS FLOAT)/total_videos ,-4) AS rounded_avg_views_per_video
+FROM 
+	view_AllCountries_youtubers_2026	
+)
+SELECT 
+	channel_name,
+	rounded_avg_views_per_video,
+	rounded_avg_views_per_video * @conversionRate AS Potential_Product_Sales_Per_Video,
+	(rounded_avg_views_per_video * @conversionRate) * @productCost AS Potential_revenue_per_video,
+	((rounded_avg_views_per_video * @conversionRate) * @productCost) - @campaignCost AS Net_profit
+FROM 
+	ChannelData
+WHERE 
+	channel_name IN ('MrBeast','Bruno Mars','Billie Eilish')
+ORDER BY 
+	Net_profit DESC
+```
+
 ### 6. Avg views per subscriber Analysis (Top 3 by avg views per sub)
 
 #### Calculation breakdowns
@@ -596,6 +724,38 @@ Campaign idea = Influencer Marketing
 - **Net profit = $2,767,000 - $130,000 = $2,637,000**
 
 Best option : Toys and Colors
+
+#### SQL query
+```sql
+-- 6. Avg views per subscriber Analysis (Top 3 by avg views per sub)
+
+DECLARE @conversionRate FLOAT = 0.02 ;
+DECLARE @productCost FLOAT = 5.0 ;
+DECLARE @campaignCost FLOAT = 130000.0 ;
+
+WITH ChannelData AS
+(
+SELECT
+	channel_name,
+	total_views,
+	total_videos,
+	ROUND(CAST(total_views AS FLOAT)/total_videos ,-4) AS rounded_avg_views_per_video
+FROM 
+	view_AllCountries_youtubers_2026	
+)
+SELECT 
+	channel_name,
+	rounded_avg_views_per_video,
+	rounded_avg_views_per_video * @conversionRate AS Potential_Product_Sales_Per_Video,
+	(rounded_avg_views_per_video * @conversionRate) * @productCost AS Potential_revenue_per_video,
+	((rounded_avg_views_per_video * @conversionRate) * @productCost) - @campaignCost AS Net_profit
+FROM 
+	ChannelData
+WHERE 
+	channel_name IN ( 'Ryan''s World','Toys and Colors','Alfredo Larin')
+ORDER BY 
+	Net_profit DESC
+```
 
 
 
