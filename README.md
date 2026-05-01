@@ -98,7 +98,7 @@ Key data used in the analysis to achieve the project objectives.
 
 Problem Identified : The NAME column contains both the channel name and the handle (ID) concatenated together, separated by the "@" symbol. To ensure analytical accuracy, it is necessary to extract only the channel name.
 
-![Problem_Identified](assets/images/Problem_Identified.png)
+![Problem_Identified](assets/images/problem_@.png)
 
 ## Transform the Data
 
