@@ -406,6 +406,37 @@ Campaign idea = Product Placement
 
 Best option : MrBeast
 
+#### SQL query
+'''sql
+-- 1. Total Subscribers Analysis (Top 3 by subscriber)
+
+DECLARE @conversionRate FLOAT = 0.02 ;
+DECLARE @productCost FLOAT = 5.0 ;
+DECLARE @campaignCost FLOAT = 50000.0 ;
+
+WITH ChannelData AS 
+(
+SELECT 
+	channel_name,
+	total_views,
+	total_videos,
+	ROUND(CAST(total_views AS FLOAT) / total_videos, -4) AS rounded_avg_views_per_video
+FROM 
+	view_AllCountries_youtubers_2026
+)
+SELECT 
+	channel_name,
+	rounded_avg_views_per_video,
+	(rounded_avg_views_per_video * @conversionRate) AS Potential_Product_Sales_Per_Video,
+	(rounded_avg_views_per_video * @conversionRate) * @productCost AS Potential_revenue_per_video,
+	((rounded_avg_views_per_video * @conversionRate) * @productCost) - @campaignCost AS Net_profit
+FROM 
+	ChannelData
+WHERE 
+	channel_name IN ('MrBeast','Vlad and Niki','✿ Kids Diana Show')
+ORDER BY 
+	Net_profit DESC
+'''
 ### 2. Total Videos Analysis (Top 3 by videos)
 
 #### Calculation breakdowns
