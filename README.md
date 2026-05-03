@@ -26,6 +26,8 @@
 - [Analysis](#Analysis)
   - [Findinga](#Findinga)
   - [Validation](#Validation)
+- [Recommendations](#Recommendations)
+- [Discovery](#Discovery)
 
 
 # Project Overview
@@ -782,6 +784,12 @@ Bad Bunny delivers the highest net profit at $24,713,000, driven by an extraordi
 Bruno Mars delivers the highest net profit in this category. Although MrBeast shows strong performance, Bruno Mars maintains a significantly higher average views per video, leading to superior net profit results. Billie Eilish ranks as a strong secondary option but does not yet match the profit levels achieved by Bruno Mars. Consequently, Bruno Mars is the most recommended channel to select within this group.
 
 ## 6. Avg views per subscriber Analysis (Top 3 by avg views per sub)
+
+Toys and Colors delivers the highest net profit in this category due to its exceptionally high average views per video, reflecting superior audience engagement. While Ryan's World maintains a strong and established presence, a direct comparison shows that Toys and Colors generates significantly higher revenue and net profit. Therefore, Toys and Colors represents the most cost-effective and high-return investment choice within this group.
+
+# Discovery
+
+When looking at the overall picture with ROI as the main focus, **MrBeast** stands out as the most cost-effective choice. He doesn’t just perform well in one area, but consistently does well across multiple metrics. His videos get high and steady views, and his strong engagement can actually turn into real business results. Because of this, his ROI is not only high but also more stable and less risky compared to other channels.
 
 
 
