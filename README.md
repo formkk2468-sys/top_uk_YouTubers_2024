@@ -759,10 +759,29 @@ ORDER BY
 	Net_profit DESC
 ```
 
+# Recommendations
 
+## 1. Total Subscribers Analysis (Top 3 by subscribers)
 
+MrBeast is the most highly recommended channel for partnership, with a projected subscriber base reaching 479 million and an impressive average of 122.9 million views per video. This immense reach translates into a potential net profit of $12,241,000 per campaign. Given his massive global audience, a single product placement can achieve instantaneous worldwide exposure. This ensures an exceptionally low cost-per-impression (CPM) while delivering maximum marketing efficiency and brand impact.
 
+## 2. Total Videos Analysis (Top 3 by videos)
 
+Net profits in this category are significantly lower than other groups because, despite having a high volume of videos, the average views per video remain relatively low. However, Ishtar Music emerges as the best performer within this segment, generating a net profit of $383,000. While Ishtar Music is the recommended choice if a selection must be made from this group, it is worth noting that the $55,000 budget might yield a much higher return on investment (ROI) if reallocated to creators in other high-performing categories instead.
+
+## 3. Total Views Analysis (Top 3 by views)
+
+Vlad and Niki should be the primary choice, delivering the highest net profit in this category at $11,854,000, followed closely by Like Nastya at $11,249,000. Both channels boast exceptionally high total views and maintain an average of over 100 million views per video, resulting in incredibly strong potential sales. While Kids Diana Show ranks within the top three for total views, its net profit remains significantly lower than the top two performers, making it a secondary option.
+
+## 4. Avg views per video Analysis (Top 3 by avg views per video)
+
+Bad Bunny delivers the highest net profit at $24,713,000, driven by an extraordinary average of 247.68 million views per video. This reflects a consistent "viral" performance for every upload. Given the campaign cost of only $55,000, this represents an exceptionally high return on investment (ROI). Bruno Mars also stands out as an excellent secondary option. Both creators are world-class music artists with massive, diverse global fanbases, ensuring widespread brand exposure.
+
+## 5. Avg subscribers per video Analysis (Top 3 by avg subs per vid) 
+
+Bruno Mars delivers the highest net profit in this category. Although MrBeast shows strong performance, Bruno Mars maintains a significantly higher average views per video, leading to superior net profit results. Billie Eilish ranks as a strong secondary option but does not yet match the profit levels achieved by Bruno Mars. Consequently, Bruno Mars is the most recommended channel to select within this group.
+
+## 6. Avg views per subscriber Analysis (Top 3 by avg views per sub)
 
 
 
